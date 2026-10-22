@@ -380,7 +380,7 @@ CMS.init({ config: {
             },
             {
               "label": "Logos",
-              "name": "logos",
+              "name": "logos_section",
               "widget": "object",
               "collapsed": true,
               "fields": [
@@ -458,7 +458,7 @@ CMS.init({ config: {
             },
             {
               "label": "Work",
-              "name": "work",
+              "name": "work_section",
               "widget": "object",
               "collapsed": true,
               "fields": [
