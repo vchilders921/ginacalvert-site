@@ -2502,14 +2502,6 @@ CMS.init({ config: {
                 }
               ],
               "required": false
-            },
-            {
-              "label": "Search & sharing",
-              "name": "seo",
-              "widget": "object",
-              "collapsed": true,
-              "fields": [],
-              "required": false
             }
           ]
         }
