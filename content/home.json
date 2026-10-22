@@ -1,80 +1,25 @@
 {
-  "testimonials": [
-    {
-      "quote": "“Gina really adds value to my content without changing what I’m trying to say.”",
-      "highlight": "without changing what I’m trying to say",
-      "name": "Jeff Hook",
-      "role": "SaaS consultant",
-      "context": "Worked alongside Gina, 2013"
-    },
-    {
-      "quote": "“Gina is a gifted writer who can take on any subject and engage the audience at the level most relevant to them.”",
-      "highlight": "engage the audience at the level most relevant to them",
-      "name": "Hollie Murrin",
-      "role": "marketing leader",
-      "context": "Managed Gina at Vision2 and Silver Oak Securities"
-    },
-    {
-      "quote": "“Gina is a key element in the development of ACTIVE Network’s marketing center of excellence. Simply put, the quality of her work and of her leadership of a team of content marketers is top notch in every measurable way.”",
-      "highlight": "top notch in every measurable way",
-      "name": "Dennis Behrman",
-      "role": "chief marketing officer, Agility Recovery",
-      "context": "Managed Gina at ACTIVE Network, ResMan, Point Predictive and One Model"
-    },
-    {
-      "quote": "“Gina has that rare mix of creativity and efficiency. She gets things done fast and always at a high standard.”",
-      "highlight": "creativity and efficiency",
-      "name": "Pria Shah",
-      "role": "product marketing, One Model",
-      "context": "Worked with Gina on the same team, 2025"
-    },
-    {
-      "quote": "“Gina is an incredible content marketer. When her skills are paired with her love for marketing and research, the work she produces is incredible.”",
-      "highlight": "love for marketing and research",
-      "name": "Christie Fitzgerald",
-      "role": "Sprinklr",
-      "context": "Worked alongside Gina, 2015"
-    }
-  ],
-  "work": [
-    {
-      "client": "ACTIVE Faith",
-      "type": "Client success story",
-      "featured": true,
-      "title": "How one expert interview became a high-value lead-generating series",
-      "role": "Turned an expert interview on emerging cloud technology into a four-part series, a comprehensive guide, and a tool for the sales team.",
-      "img": "/assets/work-active-faith.png",
-      "href": "/assets/active-faith-case-study.pdf",
-      "cta": "View case study"
-    },
-    {
-      "client": "One Model",
-      "type": "Whitepaper",
-      "title": "Shift Happens: Get Ahead of HR's AI Reckoning",
-      "role": "Executive content translating complex AI leadership concepts for CHROs. The centerpiece of a major campaign. Contributor and managing editor.",
-      "img": "/assets/work-shift-happens.png",
-      "href": "/assets/wix-shift-happens-whitepaper.pdf",
-      "cta": "View whitepaper"
-    },
-    {
-      "client": "Point Predictive",
-      "type": "Case study",
-      "title": "MidAtlantic Finance Company Customer Story",
-      "role": "Written from a recorded conversation.",
-      "img": "/assets/work-midatlantic.png",
-      "href": "/assets/wix-midatlantic-case-study.pdf",
-      "cta": "View case study"
-    },
-    {
-      "client": "Vision2",
-      "type": "Survey report",
-      "title": "2023 Annual Report on Stewardship",
-      "role": "Helped shape the survey questions, compiled all findings, and designed the report.",
-      "img": "/assets/work-vision2.png",
-      "href": "/assets/wix-vision2-stewardship-report.pdf",
-      "cta": "View report"
-    }
-  ],
+  "contact": {
+    "t1": "Your move.",
+    "t2": "You've built the momentum.",
+    "t3": "Now let's put it into words.",
+    "t4": "First call's on me.",
+    "t5": "Book a conversation",
+    "t6": "or email",
+    "i1": "/assets/gina-bike-fullshadow.png",
+    "i1_alt": "Gina Calvert on a mountain bike, smiling, with her shadow stretching behind her"
+  },
+  "proof": {
+    "t4": "Read the story behind it →",
+    "t5": "Years of experience",
+    "t6": "Writing and messaging strategy for SaaS and B2B teams.",
+    "t7": "25+",
+    "t8": "Industries",
+    "t9": "From SaaS to fintech to healthcare.",
+    "t1": "$480k",
+    "t2": "New-name revenue",
+    "t3": "From one original, data-driven asset, duplicated across 7 verticals."
+  },
   "logos": [
     {
       "src": "/assets/logos-one-model.png",
@@ -167,85 +112,12 @@
       "h": 55
     }
   ],
-  "hero": {
-    "t1": "Ghostwriting for leaders",
-    "t2": "with",
-    "t3": "more to say than",
-    "t4": "time to say it.",
-    "t5": "Authority without performance.",
-    "t6": "Your body of work — from core assets to articles, newsletters, and posts — that sounds like you and carries your name.",
-    "t7": "Get it written",
-    "t8": "Build something lasting",
-    "i1": "/assets/hero-headshot-2025b.png",
-    "i1_alt": "Portrait of Gina Calvert"
-  },
-  "quick_facts": {
-    "t1": "16 years",
-    "t2": "of SaaS and B2B writing",
-    "t3": "$480k",
-    "t4": "New-name revenue from one original content asset",
-    "t5": "25+ industries",
-    "t6": "Including HR tech, fintech, nonprofit software, fraud prevention, people analytics",
-    "t7": "Author",
-    "t8": "Published books, guides and articles"
-  },
-  "scattered": {
-    "t1": "Your brain is full,",
-    "t2": "But your ideas are scattered.",
-    "t3": "There's a body of work hidden in there somewhere. And some breathing room on the other side.",
-    "t4": "Scattered",
-    "t5": "Your thinking, everywhere.",
-    "t6": "Sorted",
-    "t7": "The ideas worth keeping. The noise goes.",
-    "t8": "Shaped",
-    "t9": "A body of work people recognize as yours.",
-    "t10": "Watch it again",
-    "t11": "Untitled document (7)",
-    "t12": "why does onboarding fail??",
-    "t13": "Sticky note, 2:14 AM",
-    "t14": "what if trust is the product?",
-    "t15": "Board deck v9 FINAL (2), slide 14",
-    "t16": "the shift to outcomes",
-    "t17": "LinkedIn post · 11 reactions",
-    "t18": "Hot take: churn is a story problem",
-    "t19": "AI chat",
-    "t20": "“make this sound less corporate”",
-    "t21": "Margin note",
-    "t22": "YES. this.",
-    "t23": "One recognizable body of work",
-    "t24": "by you"
-  },
-  "services": {
-    "t1": "Word engineering",
-    "t2": "Your ideas. Done.",
-    "t3": "Ghostwriting",
-    "t4": "Help me write",
-    "t5": "You need a senior writer who can get inside the work and run with it.",
-    "t6": "Ghostwriting →",
-    "t7": "Authority Asset",
-    "t8": "Help me shape my ideas",
-    "t9": "Turn what you know into what you’re known for.",
-    "t10": "Authority Asset →"
-  },
-  "logos_section": {
-    "t1": "Written for teams at"
-  },
-  "proof": {
-    "t1": "$480k",
-    "t2": "New-name revenue",
-    "t3": "From one original, data-driven asset, duplicated across 7 verticals.",
-    "t4": "Read the story behind it →",
-    "t5": "Years of experience",
-    "t6": "Writing and messaging strategy for SaaS and B2B teams.",
-    "t7": "25+",
-    "t8": "Industries",
-    "t9": "From SaaS to fintech to healthcare."
-  },
-  "work_section": {
-    "t1": "Selected work",
-    "t2": "Whitepapers, case studies, and reports I’ve written.",
-    "t3": "Featured",
-    "t4": "See all work →"
+  "book": {
+    "i1": "/assets/book-cover-v3.png",
+    "i1_alt": "The End of Disposable Content book cover",
+    "t1": "Your ideas deserve more than a short life in the feed.",
+    "t2": "My own Authority Asset, exploring what happens when you step off the content treadmill and start building a body of work.",
+    "t3": "Read it →"
   },
   "about": {
     "i1": "/assets/1788730369721.jpeg",
@@ -256,25 +128,153 @@
     "t4": "If you need a narrative whisperer, let's talk.",
     "t5": "— Gina"
   },
-  "book": {
-    "i1": "/assets/book-cover-v3.png",
-    "i1_alt": "The End of Disposable Content book cover",
-    "t1": "Your ideas deserve more than a short life in the feed.",
-    "t2": "My own Authority Asset, exploring what happens when you step off the content treadmill and start building a body of work.",
-    "t3": "Read it →"
+  "logos_section": {
+    "t1": "Written for teams at"
   },
-  "contact": {
-    "t1": "Your move.",
-    "t2": "You've built the momentum.",
-    "t3": "Now let's put it into words.",
-    "t4": "First call's on me.",
-    "t5": "Book a conversation",
-    "t6": "or email",
-    "i1": "/assets/gina-bike-fullshadow.png",
-    "i1_alt": "Gina Calvert on a mountain bike, smiling, with her shadow stretching behind her"
+  "work": [
+    {
+      "client": "ACTIVE Faith",
+      "type": "Client success story",
+      "featured": true,
+      "title": "How one expert interview became a high-value lead-generating series",
+      "role": "Turned an expert interview on emerging cloud technology into a four-part series, a comprehensive guide, and a tool for the sales team.",
+      "img": "/assets/work-active-faith.png",
+      "href": "/assets/active-faith-case-study.pdf",
+      "cta": "View case study"
+    },
+    {
+      "client": "One Model",
+      "type": "Whitepaper",
+      "title": "Shift Happens: Get Ahead of HR's AI Reckoning",
+      "role": "Executive content translating complex AI leadership concepts for CHROs. The centerpiece of a major campaign. Contributor and managing editor.",
+      "img": "/assets/work-shift-happens.png",
+      "href": "/assets/wix-shift-happens-whitepaper.pdf",
+      "cta": "View whitepaper"
+    },
+    {
+      "client": "Point Predictive",
+      "type": "Case study",
+      "title": "MidAtlantic Finance Company Customer Story",
+      "role": "Written from a recorded conversation.",
+      "img": "/assets/work-midatlantic.png",
+      "href": "/assets/wix-midatlantic-case-study.pdf",
+      "cta": "View case study"
+    },
+    {
+      "client": "Vision2",
+      "type": "Survey report",
+      "title": "2023 Annual Report on Stewardship",
+      "role": "Helped shape the survey questions, compiled all findings, and designed the report.",
+      "img": "/assets/work-vision2.png",
+      "href": "/assets/wix-vision2-stewardship-report.pdf",
+      "cta": "View report"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "“Gina really adds value to my content without changing what I’m trying to say.”",
+      "highlight": "without changing what I’m trying to say",
+      "name": "Jeff Hook",
+      "role": "SaaS consultant",
+      "context": "Worked alongside Gina, 2013"
+    },
+    {
+      "quote": "“Gina is a gifted writer who can take on any subject and engage the audience at the level most relevant to them.”",
+      "highlight": "engage the audience at the level most relevant to them",
+      "name": "Hollie Murrin",
+      "role": "marketing leader",
+      "context": "Managed Gina at Vision2 and Silver Oak Securities"
+    },
+    {
+      "quote": "“Gina is a key element in the development of ACTIVE Network’s marketing center of excellence. Simply put, the quality of her work and of her leadership of a team of content marketers is top notch in every measurable way.”",
+      "highlight": "top notch in every measurable way",
+      "name": "Dennis Behrman",
+      "role": "chief marketing officer, Agility Recovery",
+      "context": "Managed Gina at ACTIVE Network, ResMan, Point Predictive and One Model"
+    },
+    {
+      "quote": "“Gina has that rare mix of creativity and efficiency. She gets things done fast and always at a high standard.”",
+      "highlight": "creativity and efficiency",
+      "name": "Pria Shah",
+      "role": "product marketing, One Model",
+      "context": "Worked with Gina on the same team, 2025"
+    },
+    {
+      "quote": "“Gina is an incredible content marketer. When her skills are paired with her love for marketing and research, the work she produces is incredible.”",
+      "highlight": "love for marketing and research",
+      "name": "Christie Fitzgerald",
+      "role": "Sprinklr",
+      "context": "Worked alongside Gina, 2015"
+    }
+  ],
+  "quick_facts": {
+    "t1": "16 years",
+    "t2": "of SaaS and B2B writing",
+    "t3": "$480k",
+    "t4": "New-name revenue from one original content asset",
+    "t5": "25+ industries",
+    "t6": "Including HR tech, fintech, nonprofit software, fraud prevention, people analytics",
+    "t7": "Author",
+    "t8": "Published books, guides and articles"
+  },
+  "work_section": {
+    "t1": "Selected work",
+    "t2": "Whitepapers, case studies, and reports I’ve written.",
+    "t3": "Featured",
+    "t4": "See all work →"
+  },
+  "hero": {
+    "t4": "time to say it.",
+    "t5": "Authority without performance.",
+    "t6": "Your body of work — from core assets to articles, newsletters, and posts — that sounds like you and carries your name.",
+    "t7": "Get it written",
+    "t8": "Build something lasting",
+    "i1": "/assets/hero-headshot-2025b.png",
+    "i1_alt": "Portrait of Gina Calvert",
+    "t1": "Ghostwriting for leaders!",
+    "t2": "with",
+    "t3": "more to say than"
   },
   "seo": {
     "title": "Gina Calvert · Ghostwriting for leaders",
     "description": "Ghostwriting for leaders with more to say than time to say it. Authority without performance."
+  },
+  "scattered": {
+    "t4": "Scattered",
+    "t5": "Your thinking, everywhere.",
+    "t6": "Sorted",
+    "t7": "The ideas worth keeping. The noise goes.",
+    "t8": "Shaped",
+    "t9": "A body of work people recognize as yours.",
+    "t20": "“make this sound less corporate”",
+    "t10": "Watch it again",
+    "t21": "Margin note",
+    "t11": "Untitled document (7)",
+    "t22": "YES. this.",
+    "t12": "why does onboarding fail??",
+    "t23": "One recognizable body of work",
+    "t13": "Sticky note, 2:14 AM",
+    "t24": "by you",
+    "t14": "what if trust is the product?",
+    "t15": "Board deck v9 FINAL (2), slide 14",
+    "t16": "the shift to outcomes",
+    "t17": "LinkedIn post · 11 reactions",
+    "t18": "Hot take: churn is a story problem",
+    "t19": "AI chat",
+    "t1": "Your brain is full,",
+    "t2": "But your ideas are scattered.",
+    "t3": "There's a body of work hidden in there somewhere. And some breathing room on the other side."
+  },
+  "services": {
+    "t4": "Help me write",
+    "t5": "You need a senior writer who can get inside the work and run with it.",
+    "t6": "Ghostwriting →",
+    "t7": "Authority Asset",
+    "t8": "Help me shape my ideas",
+    "t9": "Turn what you know into what you’re known for.",
+    "t10": "Authority Asset →",
+    "t1": "Word engineering",
+    "t2": "Your ideas. Done.",
+    "t3": "Ghostwriting"
   }
 }
