@@ -1,0 +1,18 @@
+# Old Wix pages -> new site (permanent redirects)
+/home                    /                      301
+/about                   /#about                301
+/s-projects-basic        /portfolio             301
+/digital-marketing       /portfolio             301
+/product-collateral-1    /portfolio             301
+/thought-leadership      /portfolio             301
+/blogging-social-media   /portfolio             301
+/content-creation        /portfolio             301
+/editoral-services       /portfolio             301
+/editorial-services      /portfolio             301
+
+# Retired blog -> Substack
+/blog                    https://ginacalvert.substack.com   301
+/blog/*                  https://ginacalvert.substack.com   301
+/post/*                  https://ginacalvert.substack.com   301
+
+/body-of-work            /authority-asset       301
