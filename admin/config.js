@@ -5,8 +5,25 @@ CMS.init({ config: {
     "name": "git-gateway",
     "repo": "vchilders921/ginacalvert-site",
     "branch": "main",
-    "identity_url": "PASTE_DECAPBRIDGE_IDENTITY_URL",
-    "gateway_url": "PASTE_DECAPBRIDGE_GATEWAY_URL"
+    "auth_type": "pkce",
+    "base_url": "https://auth.decapbridge.com",
+    "auth_endpoint": "/sites/19ac0444-5f83-4355-b49e-2e0cca45bd61/pkce",
+    "auth_token_endpoint": "/sites/19ac0444-5f83-4355-b49e-2e0cca45bd61/token",
+    "gateway_url": "https://gateway.decapbridge.com",
+    "commit_messages": {
+      "create": "Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge",
+      "update": "Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge",
+      "delete": "Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge",
+      "uploadMedia": "Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge",
+      "deleteMedia": "Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge",
+      "openAuthoring": "Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge"
+    }
+  },
+  "auth": {
+    "email_claim": "email",
+    "first_name_claim": "first_name",
+    "last_name_claim": "last_name",
+    "avatar_url_claim": "avatar_url"
   },
   "site_url": "https://ginacalvert.com",
   "display_url": "https://ginacalvert.com",
