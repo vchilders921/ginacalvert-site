@@ -1,13 +1,172 @@
 {
-  "work": {
-    "t1": "Selected work",
-    "t2": "Whitepapers, case studies, and reports I’ve written.",
-    "t3": "Featured",
-    "t4": "See all work →"
-  },
-  "logos": {
-    "t1": "Written for teams at"
-  },
+  "testimonials": [
+    {
+      "quote": "“Gina really adds value to my content without changing what I’m trying to say.”",
+      "highlight": "without changing what I’m trying to say",
+      "name": "Jeff Hook",
+      "role": "SaaS consultant",
+      "context": "Worked alongside Gina, 2013"
+    },
+    {
+      "quote": "“Gina is a gifted writer who can take on any subject and engage the audience at the level most relevant to them.”",
+      "highlight": "engage the audience at the level most relevant to them",
+      "name": "Hollie Murrin",
+      "role": "marketing leader",
+      "context": "Managed Gina at Vision2 and Silver Oak Securities"
+    },
+    {
+      "quote": "“Gina is a key element in the development of ACTIVE Network’s marketing center of excellence. Simply put, the quality of her work and of her leadership of a team of content marketers is top notch in every measurable way.”",
+      "highlight": "top notch in every measurable way",
+      "name": "Dennis Behrman",
+      "role": "chief marketing officer, Agility Recovery",
+      "context": "Managed Gina at ACTIVE Network, ResMan, Point Predictive and One Model"
+    },
+    {
+      "quote": "“Gina has that rare mix of creativity and efficiency. She gets things done fast and always at a high standard.”",
+      "highlight": "creativity and efficiency",
+      "name": "Pria Shah",
+      "role": "product marketing, One Model",
+      "context": "Worked with Gina on the same team, 2025"
+    },
+    {
+      "quote": "“Gina is an incredible content marketer. When her skills are paired with her love for marketing and research, the work she produces is incredible.”",
+      "highlight": "love for marketing and research",
+      "name": "Christie Fitzgerald",
+      "role": "Sprinklr",
+      "context": "Worked alongside Gina, 2015"
+    }
+  ],
+  "work": [
+    {
+      "client": "ACTIVE Faith",
+      "type": "Client success story",
+      "featured": true,
+      "title": "How one expert interview became a high-value lead-generating series",
+      "role": "Turned an expert interview on emerging cloud technology into a four-part series, a comprehensive guide, and a tool for the sales team.",
+      "img": "/assets/work-active-faith.png",
+      "href": "/assets/active-faith-case-study.pdf",
+      "cta": "View case study"
+    },
+    {
+      "client": "One Model",
+      "type": "Whitepaper",
+      "title": "Shift Happens: Get Ahead of HR's AI Reckoning",
+      "role": "Executive content translating complex AI leadership concepts for CHROs. The centerpiece of a major campaign. Contributor and managing editor.",
+      "img": "/assets/work-shift-happens.png",
+      "href": "/assets/wix-shift-happens-whitepaper.pdf",
+      "cta": "View whitepaper"
+    },
+    {
+      "client": "Point Predictive",
+      "type": "Case study",
+      "title": "MidAtlantic Finance Company Customer Story",
+      "role": "Written from a recorded conversation.",
+      "img": "/assets/work-midatlantic.png",
+      "href": "/assets/wix-midatlantic-case-study.pdf",
+      "cta": "View case study"
+    },
+    {
+      "client": "Vision2",
+      "type": "Survey report",
+      "title": "2023 Annual Report on Stewardship",
+      "role": "Helped shape the survey questions, compiled all findings, and designed the report.",
+      "img": "/assets/work-vision2.png",
+      "href": "/assets/wix-vision2-stewardship-report.pdf",
+      "cta": "View report"
+    }
+  ],
+  "logos": [
+    {
+      "src": "/assets/logos-one-model.png",
+      "name": "One Model",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-active-network.png",
+      "name": "ACTIVE Network",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-grant-thornton.png",
+      "name": "Grant Thornton",
+      "h": 39
+    },
+    {
+      "src": "/assets/logos-point-predictive.png",
+      "name": "Point Predictive",
+      "h": 55
+    },
+    {
+      "src": "/assets/logos-silver-oak-securities.png",
+      "name": "Silver Oak Securities",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-idonate.png",
+      "name": "iDonate",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-altezza.png",
+      "name": "Altezza",
+      "h": 49
+    },
+    {
+      "src": "/assets/logos-juxt.png",
+      "name": "JUXT",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-tcp.png",
+      "name": "TCP",
+      "h": 49
+    },
+    {
+      "src": "/assets/logos-law-kpis.png",
+      "name": "Law KPIs",
+      "h": 38
+    },
+    {
+      "src": "/assets/logos-securesearch.png",
+      "name": "SecureSearch",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-dfw-child.png",
+      "name": "DFW Child",
+      "h": 55
+    },
+    {
+      "src": "/assets/logos-leon-county-domestic-violence-advocates.png",
+      "name": "Leon County Domestic Violence Advocates",
+      "h": 33
+    },
+    {
+      "src": "/assets/logos-zachry-associates.png",
+      "name": "Zachry Associates",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-ontime-networks.png",
+      "name": "OnTime Networks",
+      "h": 39
+    },
+    {
+      "src": "/assets/logos-luckytamm.png",
+      "name": "LuckyTamm",
+      "h": 41
+    },
+    {
+      "src": "/assets/logos-resman.png",
+      "name": "ResMan",
+      "h": 32
+    },
+    {
+      "src": "/assets/logos-m4-ranch-group.png",
+      "name": "M4 Ranch Group",
+      "h": 55
+    }
+  ],
   "hero": {
     "t1": "Ghostwriting for leaders",
     "t2": "with",
@@ -68,6 +227,9 @@
     "t9": "Turn what you know into what you’re known for.",
     "t10": "Authority Asset →"
   },
+  "logos_section": {
+    "t1": "Written for teams at"
+  },
   "proof": {
     "t1": "$480k",
     "t2": "New-name revenue",
@@ -78,6 +240,12 @@
     "t7": "25+",
     "t8": "Industries",
     "t9": "From SaaS to fintech to healthcare."
+  },
+  "work_section": {
+    "t1": "Selected work",
+    "t2": "Whitepapers, case studies, and reports I’ve written.",
+    "t3": "Featured",
+    "t4": "See all work →"
   },
   "about": {
     "i1": "/assets/1788730369721.jpeg",
