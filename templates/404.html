@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="/support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#faf5ea;font-family:'Plus Jakarta Sans',sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#7f3d22;text-decoration:none}
+a:hover{color:#1d1a16}
+@media (min-width:821px){html{zoom:.9}}
+.gc-burger,.gc-mmenu{display:none}
+@media (max-width:820px){
+  .gc-navlink{display:none!important}
+  .gc-burger{display:flex!important}
+  .gc-mmenu{display:flex!important}
+  .gc-navcta{padding:10px 14px!important;font-size:12px!important}
+}
+@media (max-width:420px){nav > div{gap:8px!important}nav > div:not(.gc-mmenu) > a:first-child{font-size:16px!important}.gc-navcta{padding:8px 9px!important;font-size:10.5px!important;letter-spacing:0.03em!important}.gc-burger{width:38px!important;height:38px!important}}
+.gc-dd-panel{display:none}
+.gc-dd:hover .gc-dd-panel,.gc-dd:focus-within .gc-dd-panel{display:block}
+</style>
+</helmet>
+<div style="min-height:100vh;display:flex;flex-direction:column">
+<nav style="position:sticky;top:0;z-index:20;background:#faf5ea;border-bottom:1px solid rgba(29,26,22,.14);padding:0 clamp(20px,5vw,64px)">
+  <div style="max-width:1240px;margin:0 auto;padding:12px 0;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a href="/" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:19px;letter-spacing:-0.01em;color:#1d1a16;white-space:nowrap">Gina Calvert</a>
+    <div style="display:flex;align-items:center;gap:clamp(10px,2.6vw,30px);font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase">
+      <div class="gc-navlink gc-dd" style="position:relative">
+        <a href="/#services" aria-haspopup="true" style="display:inline-flex;align-items:center;gap:6px;color:#1d1a16" style-hover="color:#7f3d22">Services<span aria-hidden="true" style="font-size:9px">&#9660;</span></a>
+        <div class="gc-dd-panel" style="position:absolute;top:100%;left:-18px;padding-top:14px;z-index:30">
+          <div style="background:#faf5ea;border:1px solid rgba(29,26,22,.16);box-shadow:0 24px 40px -24px rgba(29,26,22,.45);min-width:280px;display:flex;flex-direction:column">
+            <a href="/ghostwriting" style="display:flex;flex-direction:column;gap:3px;padding:14px 18px;color:#1d1a16;text-transform:none;letter-spacing:0" style-hover="background:#f4d06f;color:#1d1a16"><span style="font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Ghostwriting</span><span style="font-size:14px;font-weight:500;color:rgba(29,26,22,.72)">Help me write</span></a>
+            <a href="/authority-asset" style="display:flex;flex-direction:column;gap:3px;padding:14px 18px;color:#1d1a16;text-transform:none;letter-spacing:0" style-hover="background:#f4d06f;color:#1d1a16"><span style="font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Authority Asset</span><span style="font-size:14px;font-weight:500;color:rgba(29,26,22,.72)">Help me shape my ideas</span></a>
+          </div>
+        </div>
+      </div>
+      <a class="gc-navlink" href="/portfolio" style="color:#1d1a16" style-hover="color:#7f3d22">Portfolio</a>
+      <a class="gc-navlink" href="/#about" style="color:#1d1a16" style-hover="color:#7f3d22">About</a>
+      <a class="gc-navlink" href="[[s:guide]]" target="_blank" rel="noopener" style="color:#1d1a16" style-hover="color:#7f3d22">Free Guide</a>
+      <a class="gc-navcta" href="[[s:booking]]" style="background:#1d1a16;color:#faf5ea;padding:11px 18px;border-radius:2px;white-space:nowrap" style-hover="background:#f4d06f;color:#1d1a16">Book a conversation</a>
+      <button class="gc-burger" onClick="{{ toggleMenu }}" aria-label="{{ menuLabel }}" aria-expanded="{{ menuOpen }}" style="width:44px;height:44px;border:1.5px solid #1d1a16;border-radius:2px;background:transparent;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0">
+        <span style="display:block;width:18px;height:2px;background:#1d1a16;transition:transform .25s ease;transform:{{ bar1 }}"></span>
+        <span style="display:block;width:18px;height:2px;background:#1d1a16;transition:opacity .2s ease;opacity:{{ bar2 }}"></span>
+        <span style="display:block;width:18px;height:2px;background:#1d1a16;transition:transform .25s ease;transform:{{ bar3 }}"></span>
+      </button>
+    </div>
+  </div>
+  <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+    <div class="gc-mmenu" style="flex-direction:column;border-top:1px solid rgba(29,26,22,.14);background:#faf5ea;padding:8px 20px 20px">
+      <span style="font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(29,26,22,.6);padding:16px 0 2px">Services</span>
+      <a href="/ghostwriting" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Ghostwriting</a>
+      <a href="/authority-asset" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Authority Asset</a>
+      <a href="/portfolio" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Portfolio</a>
+      <a href="/#about" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">About</a>
+      <a href="[[s:guide]]" target="_blank" rel="noopener" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Free Guide</a>
+    </div>
+  </sc-if>
+</nav>
+  <main style="flex:1;display:grid;place-items:center;padding:clamp(72px,9vw,128px) clamp(20px,5vw,64px);color:#1d1a16">
+    <div style="max-width:820px;display:flex;flex-direction:column;align-items:center;gap:28px;text-align:center">
+      <span style="font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#7f3d22">[[t:page_top.t1]]</span>
+      <h1 style="font-family:'Schibsted Grotesk',sans-serif;font-weight:900;font-size:clamp(2.6rem,5vw + 1rem,5.2rem);line-height:.98;letter-spacing:-0.045em;margin:0;text-wrap:balance">[[t:page_top.t2]] <span style="background:linear-gradient(transparent 58%,#f4d06f 58%,#f4d06f 92%,transparent 92%);padding-right:.06em">[[t:page_top.t3]]</span></h1>
+      <p style="font-size:clamp(18px,1.4vw,21px);line-height:1.55;margin:0;max-width:44ch;color:rgba(29,26,22,.8);text-wrap:pretty">[[t:page_top.t4]]</p>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:6px">
+        <a href="/" style="background:#1d1a16;color:#faf5ea;padding:17px 28px;border-radius:2px;font-weight:600;font-size:13px;letter-spacing:0.08em;text-transform:uppercase" style-hover="background:#f4d06f;color:#1d1a16">[[t:page_top.t5]]</a>
+        <a href="[[s:booking]]" style="border:1.5px solid #1d1a16;color:#1d1a16;padding:15.5px 26px;border-radius:2px;font-weight:600;font-size:13px;letter-spacing:0.08em;text-transform:uppercase" style-hover="background:#f4d06f;color:#1d1a16">[[t:page_top.t6]]</a>
+      </div>
+    </div>
+  </main>
+<footer style="background:#faf5ea;color:rgba(29,26,22,.72);border-top:1px solid rgba(29,26,22,.14)">
+  <div style="padding:24px clamp(20px,5vw,64px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;max-width:1240px;margin:0 auto;font-size:13px">
+    <span>© 2026 Gina Calvert</span>
+    <div style="display:flex;gap:10px">
+      <a href="[[s:linkedin]]" target="_blank" rel="noopener" aria-label="Gina Calvert on LinkedIn" style="width:40px;height:40px;border-radius:50%;border:1.5px solid #1d1a16;display:flex;align-items:center;justify-content:center;color:#1d1a16;font-weight:700;font-size:15px;letter-spacing:-0.02em" style-hover="background:#f4d06f;border-color:#f4d06f;color:#1d1a16">in</a>
+      <a href="[[s:substack]]" target="_blank" rel="noopener" aria-label="Gina Calvert on Substack" style="width:40px;height:40px;border-radius:50%;border:1.5px solid #1d1a16;display:flex;align-items:center;justify-content:center;color:#1d1a16" style-hover="background:#f4d06f;border-color:#f4d06f;color:#1d1a16"><svg width="15" height="16" viewBox="0 0 24 26" fill="currentColor" aria-hidden="true"><path d="M0 0h24v3.2H0zM0 6h24v3.2H0zM0 12h24v14l-12-6.7L0 26z"></path></svg></a>
+    </div>
+  </div>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { menuOpen: false };
+  renderVals() {
+    const open = this.state.menuOpen;
+    return {
+      menuOpen: open,
+      menuLabel: open ? 'Close menu' : 'Open menu',
+      toggleMenu: () => this.setState(s => ({ menuOpen: !s.menuOpen })),
+      bar1: open ? 'translateY(7px) rotate(45deg)' : 'none',
+      bar2: open ? 0 : 1,
+      bar3: open ? 'translateY(-7px) rotate(-45deg)' : 'none'
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>[[t:seo.title]]</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#faf5ea;font-family:'Plus Jakarta Sans',sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#7f3d22;text-decoration:none}
+a:hover{color:#1d1a16}
+@media (min-width:821px){html{zoom:.9}}
+.gc-burger,.gc-mmenu{display:none}
+.gc-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media (max-width:820px){
+  .gc-navlink{display:none!important}
+  .gc-burger{display:flex!important}
+  .gc-mmenu{display:flex!important}
+  .gc-navcta{padding:10px 14px!important;font-size:12px!important}
+  .gc-hero{display:flex!important;flex-direction:column}
+  .gc-c-text{display:contents!important}
+  .gc-c1{order:1;padding:64px 20px 0!important}
+  .gc-c2{order:2;padding:16px 20px 32px!important}
+  .gc-c3{order:3;min-height:420px!important}
+  .gc-c4{order:4;padding:32px 20px 0!important;text-align:center}
+  .gc-c5{order:5;padding:16px 20px 64px!important;margin:0!important;flex-direction:column;align-items:center!important;text-align:center}
+}
+@media (max-width:420px){nav > div{gap:8px!important}nav > div:not(.gc-mmenu) > a:first-child{font-size:16px!important}.gc-navcta{padding:8px 9px!important;font-size:10.5px!important;letter-spacing:0.03em!important}.gc-burger{width:38px!important;height:38px!important}}
+.gc-dd-panel{display:none}
+.gc-dd:hover .gc-dd-panel,.gc-dd:focus-within .gc-dd-panel{display:block}
+</style>
+</helmet>
+
+<div style="position:relative;overflow-x:clip;color:#1d1a16;line-height:1.6">
+
+<nav style="position:sticky;top:0;z-index:20;background:#faf5ea;border-bottom:1px solid rgba(29,26,22,.14);padding:0 clamp(20px,5vw,64px)">
+  <div style="max-width:1240px;margin:0 auto;padding:12px 0;display:flex;align-items:center;justify-content:space-between;gap:12px">
+    <a href="/" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:19px;letter-spacing:-0.01em;color:#1d1a16;white-space:nowrap">Gina Calvert</a>
+    <div style="display:flex;align-items:center;gap:clamp(10px,2.6vw,30px);font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase">
+      <div class="gc-navlink gc-dd" style="position:relative">
+        <a href="/#services" aria-haspopup="true" style="display:inline-flex;align-items:center;gap:6px;color:#1d1a16" style-hover="color:#7f3d22">Services<span aria-hidden="true" style="font-size:9px">&#9660;</span></a>
+        <div class="gc-dd-panel" style="position:absolute;top:100%;left:-18px;padding-top:14px;z-index:30">
+          <div style="background:#faf5ea;border:1px solid rgba(29,26,22,.16);box-shadow:0 24px 40px -24px rgba(29,26,22,.45);min-width:280px;display:flex;flex-direction:column">
+            <a href="/ghostwriting" style="display:flex;flex-direction:column;gap:3px;padding:14px 18px;color:#1d1a16;text-transform:none;letter-spacing:0" style-hover="background:#f4d06f;color:#1d1a16"><span style="font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Ghostwriting</span><span style="font-size:14px;font-weight:500;color:rgba(29,26,22,.72)">Help me write</span></a>
+            <a href="/authority-asset" style="display:flex;flex-direction:column;gap:3px;padding:14px 18px;color:#1d1a16;text-transform:none;letter-spacing:0" style-hover="background:#f4d06f;color:#1d1a16"><span style="font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase">Authority Asset</span><span style="font-size:14px;font-weight:500;color:rgba(29,26,22,.72)">Help me shape my ideas</span></a>
+          </div>
+        </div>
+      </div>
+      <a class="gc-navlink" href="/portfolio" aria-current="page" style="color:#7f3d22;border-bottom:2px solid #f4d06f;padding-bottom:2px" style-hover="color:#7f3d22">Portfolio</a>
+      <a class="gc-navlink" href="/#about" style="color:#1d1a16" style-hover="color:#7f3d22">About</a>
+      <a class="gc-navlink" href="[[s:guide]]" target="_blank" rel="noopener" style="color:#1d1a16" style-hover="color:#7f3d22">Free Guide</a>
+      <a class="gc-navcta" href="[[s:booking]]" style="background:#1d1a16;color:#faf5ea;padding:11px 18px;border-radius:2px;white-space:nowrap" style-hover="background:#f4d06f;color:#1d1a16">Book a conversation</a>
+      <button class="gc-burger" onClick="{{ toggleMenu }}" aria-label="{{ menuLabel }}" aria-expanded="{{ menuOpen }}" style="width:44px;height:44px;border:1.5px solid #1d1a16;border-radius:2px;background:transparent;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0">
+        <span style="display:block;width:18px;height:2px;background:#1d1a16;transition:transform .25s ease;transform:{{ bar1 }}"></span>
+        <span style="display:block;width:18px;height:2px;background:#1d1a16;transition:opacity .2s ease;opacity:{{ bar2 }}"></span>
+        <span style="display:block;width:18px;height:2px;background:#1d1a16;transition:transform .25s ease;transform:{{ bar3 }}"></span>
+      </button>
+    </div>
+  </div>
+  <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+    <div class="gc-mmenu" style="flex-direction:column;border-top:1px solid rgba(29,26,22,.14);background:#faf5ea;padding:8px 20px 20px">
+      <span style="font-size:12px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:rgba(29,26,22,.6);padding:16px 0 2px">Services</span>
+      <a href="/ghostwriting" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Ghostwriting</a>
+      <a href="/authority-asset" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Authority Asset</a>
+      <a href="/portfolio" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#7f3d22" style-hover="color:#7f3d22">Portfolio</a>
+      <a href="/#about" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">About</a>
+      <a href="[[s:guide]]" target="_blank" rel="noopener" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:26px;letter-spacing:-0.02em;padding:14px 0;border-bottom:1px solid rgba(29,26,22,.12);color:#1d1a16" style-hover="color:#7f3d22">Free Guide</a>
+    </div>
+  </sc-if>
+</nav>
+
+<header data-screen-label="Portfolio header" style="padding:clamp(64px,8vw,112px) clamp(20px,5vw,64px) clamp(36px,4vw,56px)">
+  <div style="max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:20px">
+    <span style="font-size:15px;font-weight:700;color:#7f3d22">[[t:portfolio_header.t1]]</span>
+    <h1 style="font-family:'Schibsted Grotesk',sans-serif;font-weight:900;font-size:clamp(2.6rem,3.7vw + 1rem,4.2rem);line-height:1;letter-spacing:-0.04em;margin:0;max-width:14ch;text-wrap:balance">[[t:portfolio_header.t2]]</h1>
+    <p style="font-size:clamp(17px,1.35vw,20px);max-width:46ch;color:rgba(29,26,22,.8);margin:0;text-wrap:pretty">[[t:portfolio_header.t3]]</p>
+    <p style="font-size:clamp(17px,1.3vw,19px);line-height:1.6;max-width:62ch;color:rgba(29,26,22,.82);margin:0;text-wrap:pretty">[[t:portfolio_header.t4]]</p>
+  </div>
+</header>
+
+<section data-screen-label="Portfolio grid" style="padding:0 clamp(20px,5vw,64px) clamp(72px,9vw,128px)">
+  <div style="max-width:1240px;margin:0 auto">
+    <div role="tablist" aria-label="Work type" style="display:flex;flex-wrap:wrap;gap:8px clamp(24px,3vw,40px);border-top:1.5px solid #1d1a16;padding-top:22px">
+      <sc-for list="{{ tabs }}" as="t" hint-placeholder-count="2">
+        <button role="tab" aria-selected="{{ t.on }}" onClick="{{ t.pick }}" style="font:inherit;font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:clamp(1.3rem,1vw + 1rem,1.7rem);letter-spacing:-0.02em;background:none;border:0;padding:0 0 6px;cursor:pointer;color:{{ t.fg }};border-bottom:4px solid {{ t.line }};transition:color .2s ease,border-color .2s ease" style-hover="color:#1d1a16">{{ t.label }}</button>
+      </sc-for>
+    </div>
+    <div aria-label="Filter work" style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:18px 0 20px;border-bottom:1px solid rgba(29,26,22,.18);margin-bottom:clamp(36px,4vw,56px)">
+      <sc-for list="{{ chips }}" as="c" hint-placeholder-count="4">
+        <button aria-pressed="{{ c.on }}" onClick="{{ c.pick }}" style="font:inherit;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;padding:9px 14px;border-radius:2px;border:1.5px solid #1d1a16;background:{{ c.bg }};color:{{ c.fg }};cursor:pointer;transition:background .2s ease,color .2s ease" style-hover="background:#f4d06f;color:#1d1a16">{{ c.label }} <span style="opacity:.6;margin-left:4px">{{ c.count }}</span></button>
+      </sc-for>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:clamp(48px,5vw,64px) clamp(24px,3vw,40px)">
+      <sc-for list="{{ items }}" as="w" hint-placeholder-count="6">
+        <a href="{{ w.href }}" target="{{ w.target }}" rel="noopener" style="display:flex;flex-direction:column;gap:14px;color:#1d1a16" style-hover="color:#1d1a16">
+          <div style="aspect-ratio:4 / 3;background:#d9e7fb;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:clamp(18px,2vw,28px);box-sizing:border-box;transition:background .3s ease" style-hover="background:#f4d06f">
+            <img src="{{ w.img }}" alt="{{ w.title }}" style="max-width:100%;max-height:100%;object-fit:contain;display:block;filter:drop-shadow(0 14px 18px rgba(29,26,22,.32))"/>
+          </div>
+          <div style="display:flex;justify-content:space-between;gap:12px;font-size:14px;font-weight:700;color:#7f3d22">
+            <span>{{ w.client }}</span><span>{{ w.type }}</span>
+          </div>
+          <h2 style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:clamp(1.25rem,0.5vw + 1rem,1.26rem);line-height:1.2;letter-spacing:-0.015em;margin:0;text-wrap:pretty">{{ w.title }}</h2>
+          <sc-if value="{{ w.hasRole }}" hint-placeholder-val="{{ true }}"><p style="margin:0;font-size:17px;line-height:1.55;color:rgba(29,26,22,.82)">{{ w.role }}</p></sc-if>
+          <span style="font-weight:700;font-size:14px;border-bottom:1.5px solid #1d1a16;align-self:flex-start;padding-bottom:1px">{{ w.cta }} &#8594;</span>
+        </a>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section id="contact" data-screen-label="Contact" style="background:#1d1a16;color:#faf5ea;container-type:inline-size">
+  <div class="gc-hero">
+    <div class="gc-c-text" style="display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(72px,9vw,128px) clamp(24px,4vw,64px) clamp(72px,9vw,128px) max(clamp(20px,5vw,64px),calc((100cqw - 1240px) / 2))">
+      <h2 class="gc-c1" style="font-family:'Schibsted Grotesk',sans-serif;font-weight:900;font-size:clamp(2.8rem,4.2vw + 1rem,4.7rem);line-height:.95;letter-spacing:-0.04em;margin:0">[[t:contact.t1]]</h2>
+      <p class="gc-c2" style="font-size:clamp(19px,1.4vw,22px);font-weight:600;color:#faf5ea;max-width:30ch;margin:0;text-wrap:pretty">[[t:contact.t2]]<br/>[[t:contact.t3]]</p>
+      <p class="gc-c4" style="font-size:clamp(18px,1.3vw,20px);color:rgba(250,245,234,.85);margin:0">[[t:contact.t4]]</p>
+      <div class="gc-c5" style="display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-top:14px">
+        <a href="[[s:booking]]" style="background:#f4d06f;color:#1d1a16;padding:18px 30px;border-radius:2px;font-weight:600;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap" style-hover="background:#faf5ea;color:#1d1a16">[[t:contact.t5]]</a>
+        <span style="font-size:17px;color:rgba(250,245,234,.8)">[[t:contact.t6]] <a href="mailto:[[s:email]]" style="color:#faf5ea;font-weight:700;border-bottom:1.5px solid rgba(250,245,234,.4);padding-bottom:1px" style-hover="color:#f4d06f;border-color:#f4d06f">[[s:email]]</a></span>
+      </div>
+    </div>
+    <div class="gc-c3" style="position:relative;background:#f4d06f;overflow:hidden;min-height:clamp(420px,42vw,620px)">
+      <img src="[[a:contact.i1]]" alt="[[a:contact.i1_alt]]" style="position:absolute;top:5%;left:46%;transform:translateX(-20%);height:124%;width:auto;max-width:none;display:block"/>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#faf5ea;color:rgba(29,26,22,.72);border-top:1px solid rgba(29,26,22,.14)">
+  <div style="padding:24px clamp(20px,5vw,64px);display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;max-width:1240px;margin:0 auto;font-size:13px">
+    <span>© 2026 Gina Calvert</span>
+    <div style="display:flex;gap:10px">
+      <a href="[[s:linkedin]]" target="_blank" rel="noopener" aria-label="Gina Calvert on LinkedIn" style="width:40px;height:40px;border-radius:50%;border:1.5px solid #1d1a16;display:flex;align-items:center;justify-content:center;color:#1d1a16;font-weight:700;font-size:15px;letter-spacing:-0.02em" style-hover="background:#f4d06f;border-color:#f4d06f;color:#1d1a16">in</a>
+      <a href="[[s:substack]]" target="_blank" rel="noopener" aria-label="Gina Calvert on Substack" style="width:40px;height:40px;border-radius:50%;border:1.5px solid #1d1a16;display:flex;align-items:center;justify-content:center;color:#1d1a16" style-hover="background:#f4d06f;border-color:#f4d06f;color:#1d1a16"><svg width="15" height="16" viewBox="0 0 24 26" fill="currentColor" aria-hidden="true"><path d="M0 0h24v3.2H0zM0 6h24v3.2H0zM0 12h24v14l-12-6.7L0 26z"></path></svg></a>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { menuOpen: false, filter: 'all', tab: 'client', svcOpen: false };
+  renderVals() {
+    const client = [[j:client]];
+    const original = [[j:original]];
+    client.forEach(w => { w.ext = true; });
+    const cats = {
+      client: [{ id: 'all', label: 'All' }, { id: 'thought', label: 'Thought leadership' }, { id: 'product', label: 'Product marketing' }, { id: 'case', label: 'Case studies' }, { id: 'web', label: 'Web & reports' }],
+      original: [{ id: 'all', label: 'All' }, { id: 'books', label: 'Books' }, { id: 'studies', label: 'Bible studies' }, { id: 'journalism', label: 'Journalism' }]
+    };
+    const { filter: f, menuOpen: open, tab, svcOpen: svc } = this.state;
+    const list = tab === 'client' ? client : original;
+    const tabs = [{ id: 'client', label: 'Client work' }, { id: 'original', label: 'Original writing' }];
+    return {
+      tabs: tabs.map(t => ({ label: t.label, on: t.id === tab, fg: t.id === tab ? '#1d1a16' : 'rgba(29,26,22,.45)', line: t.id === tab ? '#f4d06f' : 'transparent', pick: () => this.setState({ tab: t.id, filter: 'all' }) })),
+      chips: cats[tab].map(c => {
+        const on = c.id === f;
+        return { label: c.label, count: c.id === 'all' ? list.length : list.filter(w => w.cat === c.id).length, on, bg: on ? '#1d1a16' : 'transparent', fg: on ? '#faf5ea' : '#1d1a16', pick: () => this.setState({ filter: c.id }) };
+      }),
+      items: (f === 'all' ? list : list.filter(w => w.cat === f)).map(w => ({ ...w, hasRole: !!w.role, target: w.ext ? '_blank' : '_self' })),
+      svcOpen: svc,
+      svcCaret: svc ? 'rotate(180deg)' : 'none',
+      svcShow: () => this.setState({ svcOpen: true }),
+      svcHide: () => this.setState({ svcOpen: false }),
+      svcToggle: () => this.setState(s => ({ svcOpen: !s.svcOpen })),
+      menuOpen: open,
+      menuLabel: open ? 'Close menu' : 'Open menu',
+      toggleMenu: () => this.setState(s => ({ menuOpen: !s.menuOpen })),
+      bar1: open ? 'translateY(7px) rotate(45deg)' : 'none',
+      bar2: open ? 0 : 1,
+      bar3: open ? 'translateY(-7px) rotate(-45deg)' : 'none'
+    };
+  }
+}
+</script>
+</body>
+</html>
