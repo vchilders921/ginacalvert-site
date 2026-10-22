@@ -1,0 +1,110 @@
+{
+  "authority_asset_hero": {
+    "t1": "Authority Asset",
+    "t2": "Turn what you know into",
+    "t3": "what you’re known for.",
+    "t4": "Rescue your thinking from the feed. Turn your best ideas into a signature Authority Asset you can draw from for years.",
+    "t5": "Let’s talk",
+    "t6": "A free, no-pressure conversation about your ideas, what you want to create, and whether we're a good fit.",
+    "i1": "/assets/gina-rome-tiber.jpg",
+    "i1_alt": "Gina Calvert smiling by the river in Rome, holding a straw hat"
+  },
+  "scattered": {
+    "t1": "Your ideas deserve more",
+    "t2": "than a fleeting moment in the feed.",
+    "t3": "Presentations",
+    "t4": "Conversations",
+    "t5": "Articles",
+    "t6": "Notes",
+    "t7": "AI chats",
+    "t8": "Half-finished drafts",
+    "t9": "Quick! Where do all your best insights and musings live? Scattered across presentations, conversations, articles, notes, AI chats, and half-finished drafts, right?",
+    "t10": "Some haven’t even gotten out of your head yet.",
+    "t11": "Meanwhile, the pressure to do something with all of that doesn’t let up. You try to publish it, only to watch it disappear into the feed within hours."
+  },
+  "what_if": {
+    "t1": "Stop creating content that",
+    "t2": "disappears.",
+    "t3": "What if, instead of constantly creating vanishing content — or nothing at all — you could have an asset that establishes what you know, what you stand for, and why people should seek you out?",
+    "t4": "(Without having to disappear for six months to a cabin in the woods.)",
+    "t5": "That's what a signature Authority Asset does. It's a substantial piece of work that captures your best thinking and gives you something to draw from for years."
+  },
+  "possibilities": {
+    "t1": "One asset.",
+    "t2": "Years of returns.",
+    "t3": "Establish a recognizable point of view in your industry.",
+    "t4": "Fuel months of newsletters, articles and social posts.",
+    "t5": "Open doors to speaking, podcast and media opportunities.",
+    "t6": "Give your team a consistent foundation for communicating your ideas.",
+    "t7": "Give prospects a clear understanding of your expertise before the first sales conversation.",
+    "t8": "Build authority that doesn’t disappear when the algorithm changes."
+  },
+  "the_offer": {
+    "t1": "Have an idea you’ve been meaning to bring to life?",
+    "t2": "Step 1: Discovery · Done with you",
+    "t3": "Deliverable:",
+    "t4": "Authority Asset Blueprint",
+    "t5": "Together, we’ll find the central idea worth building around.",
+    "t6": "Central Thesis",
+    "t7": "The defining idea you want to be known for, articulated in a clear, usable statement.",
+    "t8": "Supporting Themes",
+    "t9": "3–5 recurring ideas, stories and insights that reinforce your thesis.",
+    "t10": "Core Asset Recommendation",
+    "t11": "The signature piece best suited to your ideas and audience (essay, guide, mini book, etc.), with a working title and outline.",
+    "t12": "Amplification Roadmap",
+    "t13": "How that core asset can generate LinkedIn posts, newsletters and other content without constantly starting over.",
+    "t14": "You walk away with a strategic written blueprint you can execute yourself, hand to your team, or hire me to build.",
+    "t15": "2–3 weeks · roughly 3 hours of your time",
+    "t16": "$2,000",
+    "t17": "Step 2: Creation · Done for you",
+    "t18": "Finished Authority Asset",
+    "t19": "I get to work building out your Authority Asset Blueprint.",
+    "t20": "Authority Asset",
+    "t21": "Develop the approved Blueprint into a finished asset",
+    "t22": "Write and professionally design the asset",
+    "t23": "Two rounds of revisions included",
+    "t24": "You walk away with a finished, publication-ready core asset: the foundation for everything that follows.",
+    "t25": "*Authority Asset creation builds on Discovery and is not offered separately.",
+    "t26": "Discovery + 4–6 weeks",
+    "t27": "Weekly 30–60 minute check-ins",
+    "t28": "$3,000",
+    "t29": "Add-ons",
+    "t30": "Social media",
+    "t31": "Newsletter",
+    "t32": "Articles and essays",
+    "t33": "I produce content that builds on your central thesis so you never have to start from scratch again — and your audience begins to recognize what you’re known for.",
+    "t34": "Discovery + Authority Asset",
+    "t35": "Weekly asynchronous approvals",
+    "t36": "Custom quote",
+    "t37": "Let’s talk about your ideas"
+  },
+  "case_study": {
+    "i1": "/assets/work-active-faith.png",
+    "i1_alt": "ACTIVE Faith case study",
+    "t1": "How one expert interview became a high-value lead-generating series.",
+    "t2": "Wondering how a ghostwriter can capture your unique expertise and develop something valuable?",
+    "t3": "See how I turned an expert interview about emerging cloud technology — a subject I knew little about myself — into a lead-generating resource that grew into a four-part series, a comprehensive guide, and a valuable tool for the sales team.",
+    "t4": "View the case study →"
+  },
+  "the_guide": {
+    "i1": "/assets/book-cover-v3.png",
+    "i1_alt": "The End of Disposable Content book cover",
+    "t1": "The End of Disposable Content",
+    "t2": "My free guide to building a body of work instead of endlessly feeding the content machine.",
+    "t3": "And one example of an Authority Asset in real life — one central idea developed into something substantial, useful, and lasting.",
+    "t4": "Read it →"
+  },
+  "contact": {
+    "t1": "Your move.",
+    "t2": "You've built the momentum.",
+    "t3": "Now let's put it into words.",
+    "t4": "First call's on me.",
+    "t5": "Let’s talk about your ideas",
+    "t6": "or email",
+    "i1": "/assets/gina-bike-fullshadow.png",
+    "i1_alt": "Gina Calvert on a mountain bike, smiling, with her shadow stretching behind her"
+  },
+  "seo": {
+    "title": "Authority Asset · Gina Calvert"
+  }
+}

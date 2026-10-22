@@ -1,0 +1,388 @@
+{
+  "client": [
+    {
+      "cat": "case",
+      "client": "ACTIVE Faith",
+      "type": "Client success story",
+      "title": "How one expert interview became a high-value lead-generating series",
+      "role": "Turned an expert interview on emerging cloud technology into a four-part series, a comprehensive guide, and a tool for the sales team.",
+      "img": "/assets/work-active-faith.png",
+      "href": "/assets/active-faith-case-study.pdf",
+      "cta": "View case study"
+    },
+    {
+      "cat": "thought",
+      "client": "One Model",
+      "type": "Whitepaper",
+      "title": "Shift Happens: Get Ahead of HR's AI Reckoning",
+      "role": "Executive content translating complex AI leadership concepts for CHROs. The centerpiece of a major campaign. Contributor and managing editor.",
+      "img": "/assets/work-shift-happens.png",
+      "href": "/assets/wix-shift-happens-whitepaper.pdf",
+      "cta": "View whitepaper"
+    },
+    {
+      "cat": "thought",
+      "client": "One Model",
+      "type": "Blog post",
+      "title": "Leading Through AI Anxiety",
+      "role": "How HR leaders facing AI mandates can lead through anxieties about its impact on work, society, and the next generation.",
+      "img": "/assets/work-ai-anxiety.png",
+      "href": "https://www.onemodel.co/blog/leading-through-ai-anxiety",
+      "cta": "View blog"
+    },
+    {
+      "cat": "case",
+      "client": "Point Predictive",
+      "type": "Case study",
+      "title": "MidAtlantic Finance Company Customer Story",
+      "role": "Written from a recorded conversation.",
+      "img": "/assets/work-midatlantic.png",
+      "href": "/assets/wix-midatlantic-case-study.pdf",
+      "cta": "View case study"
+    },
+    {
+      "cat": "web",
+      "client": "One Model",
+      "type": "Website copy",
+      "title": "Whitepapers page",
+      "role": "Wrote or edited much of the site copy, many of the whitepapers on this page, and all of their blurbs.",
+      "img": "/assets/work-onemodel-web.png",
+      "href": "https://www.onemodel.co/whitepapers",
+      "cta": "View webpage"
+    },
+    {
+      "cat": "web",
+      "client": "Vision2",
+      "type": "Survey report",
+      "title": "2023 Annual Report on Stewardship",
+      "role": "Helped shape the survey questions, compiled all findings, and designed the report.",
+      "img": "/assets/work-vision2.png",
+      "href": "/assets/wix-vision2-stewardship-report.pdf",
+      "cta": "View report"
+    },
+    {
+      "cat": "case",
+      "client": "Lucky Tamm Digital",
+      "type": "Case study",
+      "title": "Yearout Energy Customer Story",
+      "role": "Interviewed the agency's client and wrote the study.",
+      "img": "/assets/work-yearout-v2.png",
+      "href": "work/yearout-bernalillo.pdf",
+      "cta": "View case study"
+    },
+    {
+      "cat": "thought",
+      "client": "iDonate",
+      "type": "Tip sheet",
+      "title": "5 Tips to Improve Your Year-End Campaign",
+      "role": "",
+      "img": "work/year-end-tips.jpg",
+      "href": "work/year-end-tips.pdf",
+      "cta": "View tip sheet"
+    },
+    {
+      "cat": "thought",
+      "client": "iDonate",
+      "type": "eBook",
+      "title": "6 Reasons You Aren’t Getting More Donors",
+      "role": "",
+      "img": "work/six-reasons-donors.jpg",
+      "href": "work/six-reasons-donors.pdf",
+      "cta": "View ebook"
+    },
+    {
+      "cat": "thought",
+      "client": "iDonate",
+      "type": "eBook",
+      "title": "8 Features Your Online Fundraising Software Must Have",
+      "role": "",
+      "img": "work/eight-features.jpg",
+      "href": "work/eight-features.pdf",
+      "cta": "View ebook"
+    },
+    {
+      "cat": "thought",
+      "client": "iDonate",
+      "type": "eBook",
+      "title": "How Alabama Baptist Children’s Homes Won #GivingTuesday",
+      "role": "",
+      "img": "work/abch-givingtuesday.jpg",
+      "href": "work/abch-givingtuesday.pdf",
+      "cta": "View ebook"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Checklist",
+      "title": "Camp Registration Forms That Work",
+      "role": "",
+      "img": "work/camp-registration.jpg",
+      "href": "work/camp-registration.pdf",
+      "cta": "View checklist"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "eBook",
+      "title": "Community Partnerships in Action: 5 Ways to Increase Camp & Clinic Enrollment",
+      "role": "",
+      "img": "work/community-partnerships.jpg",
+      "href": "work/community-partnerships.pdf",
+      "cta": "View ebook"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Data sheet",
+      "title": "Girls in the Game",
+      "role": "",
+      "img": "work/girls-in-the-game.jpg",
+      "href": "work/girls-in-the-game.pdf",
+      "cta": "View data sheet"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Whitepaper",
+      "title": "Healthy Church: Strategies for Achieving and Maintaining Growth",
+      "role": "",
+      "img": "work/healthy-church.jpg",
+      "href": "work/healthy-church.pdf",
+      "cta": "View whitepaper"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Whitepaper",
+      "title": "Keeping Church Safe: 5 Church Security Basics",
+      "role": "",
+      "img": "work/keeping-church-safe.jpg",
+      "href": "work/keeping-church-safe.pdf",
+      "cta": "View whitepaper"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Fellowship One",
+      "type": "eBook",
+      "title": "Measuring What Matters Most: Number-Crunching for Executive Leadership",
+      "role": "",
+      "img": "work/measuring-what-matters.jpg",
+      "href": "work/measuring-what-matters.pdf",
+      "cta": "View ebook"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Digital guide",
+      "title": "No Surprises: Questions You Should Ask Every ChMS Provider",
+      "role": "",
+      "img": "work/no-surprises.jpg",
+      "href": "work/no-surprises-guide.pdf",
+      "cta": "View digital guide"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Cheat sheet",
+      "title": "The Busy Program Director’s Email Marketing Cheat Sheet",
+      "role": "",
+      "img": "work/email-cheat-sheet.jpg",
+      "href": "work/email-cheat-sheet.pdf",
+      "cta": "View cheat sheet"
+    },
+    {
+      "cat": "thought",
+      "client": "ResMan",
+      "type": "Guide",
+      "title": "7 Key Steps to ADA Compliance on Property Websites",
+      "role": "",
+      "img": "work/resman-ada.jpg",
+      "href": "work/resman-ada.pdf",
+      "cta": "View guide"
+    },
+    {
+      "cat": "thought",
+      "client": "ResMan",
+      "type": "eBook",
+      "title": "5 Must-Haves in a Virtual Leasing Office",
+      "role": "",
+      "img": "work/resman-virtual-leasing.jpg",
+      "href": "work/resman-virtual-leasing.pdf",
+      "cta": "View ebook"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Fellowship One",
+      "type": "Guide",
+      "title": "Squeaky Clean Data: A 6-Step Guide",
+      "role": "",
+      "img": "work/squeaky-clean-data.jpg",
+      "href": "work/squeaky-clean-data.pdf",
+      "cta": "View guide"
+    },
+    {
+      "cat": "thought",
+      "client": "ACTIVE Network",
+      "type": "Report",
+      "title": "What Drives People to Click? Following Fingertip Journeys with Heat Maps",
+      "role": "",
+      "img": "work/what-drives-clicks.jpg",
+      "href": "work/what-drives-clicks.pdf",
+      "cta": "View report"
+    },
+    {
+      "cat": "product",
+      "client": "ACTIVE Network",
+      "type": "Checklist",
+      "title": "4 Steps to Accelerate Your Season Launch",
+      "role": "",
+      "img": "work/season-launch.jpg",
+      "href": "work/season-launch.pdf",
+      "cta": "View checklist"
+    },
+    {
+      "cat": "product",
+      "client": "ACTIVE Network",
+      "type": "Buyer’s guide",
+      "title": "9 Questions to Ask Recreation Management Providers",
+      "role": "",
+      "img": "work/rec-questions.jpg",
+      "href": "work/rec-questions.pdf",
+      "cta": "View buyer’s guide"
+    },
+    {
+      "cat": "product",
+      "client": "ACTIVE Network",
+      "type": "Whitepaper",
+      "title": "Innovation That Protects: Smart Data Security for Parks & Rec Management",
+      "role": "",
+      "img": "work/data-security.jpg",
+      "href": "work/data-security.pdf",
+      "cta": "View whitepaper"
+    },
+    {
+      "cat": "product",
+      "client": "ACTIVE Faith",
+      "type": "Guide",
+      "title": "No More Confusion: Understanding the Cloud and Church Management Software",
+      "role": "",
+      "img": "work/no-more-confusion.jpg",
+      "href": "work/no-more-confusion.pdf",
+      "cta": "View guide"
+    },
+    {
+      "cat": "case",
+      "client": "MAXIMUM SOLUTIONS",
+      "type": "Case study",
+      "title": "Keeping Cool with Cloud-Based Recreation Software",
+      "role": "",
+      "img": "work/cool-sports.jpg",
+      "href": "work/cool-sports.pdf",
+      "cta": "View case study"
+    },
+    {
+      "cat": "case",
+      "client": "Point Predictive",
+      "type": "Case study",
+      "title": "Elite Acceptance Corporation Customer Story",
+      "role": "",
+      "img": "work/elite-acceptance.jpg",
+      "href": "work/elite-acceptance.pdf",
+      "cta": "View case study"
+    }
+  ],
+  "original": [
+    {
+      "cat": "books",
+      "client": "Authority Asset",
+      "type": "Free guide",
+      "title": "The End of Disposable Content",
+      "role": "My own Authority Asset, exploring what happens when you step off the content treadmill and start building a body of work.",
+      "img": "/assets/book-cover-v3.png",
+      "href": "https://endofdisposablecontent.ginacalvert.com/",
+      "cta": "Read it",
+      "ext": true
+    },
+    {
+      "cat": "books",
+      "client": "Book",
+      "type": "Faith",
+      "title": "From Gravel to Glory: Becoming a House of God",
+      "role": "Explore the biblical temple to understand how your struggles are transforming you.",
+      "img": "/assets/wix-orig-gravel-to-glory.png",
+      "href": "mailto:gina@ginacalvert.com?subject=From%20Gravel%20to%20Glory",
+      "cta": "Ask about it"
+    },
+    {
+      "cat": "books",
+      "client": "Book",
+      "type": "Photo journal",
+      "title": "Little Bead: A Story of Transformation",
+      "role": "The spiritual arc of transformation, told through the African bead-making process. Each book comes with a bookmark made from the beads in the story. 75% of proceeds support human-trafficking rescue in Ghana, West Africa.",
+      "img": "/assets/wix-orig-little-bead.png",
+      "href": "mailto:gina@ginacalvert.com?subject=Little%20Bead",
+      "cta": "Ask about it"
+    },
+    {
+      "cat": "studies",
+      "client": "Bible study",
+      "type": "9 weeks",
+      "title": "Kingdom Power",
+      "role": "A 9-week Bible study.",
+      "img": "/assets/wix-orig-kingdom-power.png",
+      "href": "mailto:gina@ginacalvert.com?subject=Kingdom%20Power%20Bible%20Study",
+      "cta": "Ask about it"
+    },
+    {
+      "cat": "studies",
+      "client": "Bible study",
+      "type": "9 weeks",
+      "title": "Feminine Traits of God",
+      "role": "A 9-week Bible study.",
+      "img": "/assets/wix-orig-feminine-traits.png",
+      "href": "mailto:gina@ginacalvert.com?subject=Feminine%20Traits%20of%20God%20Bible%20Study",
+      "cta": "Ask about it"
+    },
+    {
+      "cat": "journalism",
+      "client": "DFW Child's Special Needs",
+      "type": "Aug 2019",
+      "title": "11 Things Therapists and Teachers Want Parents to Know",
+      "role": "Feature article.",
+      "img": "/assets/wix-orig-dfw-therapists.jpg",
+      "href": "https://dfwchild.com/2019/07/29/11-things-therapists-and-teachers-want-parents-to-know/",
+      "cta": "Read it",
+      "ext": true
+    },
+    {
+      "cat": "journalism",
+      "client": "DFW Child",
+      "type": "Mar 2020",
+      "title": "What You Need to Know About Sports + Deadly Heart Conditions",
+      "role": "How to protect your kid from sudden cardiac arrest.",
+      "img": "/assets/wix-orig-dfw-heart.png",
+      "href": "https://dfwchild.com/2020/03/01/what-you-need-to-know-about-sports-deadly-heart-conditions/",
+      "cta": "Read it",
+      "ext": true
+    }
+  ],
+  "portfolio_header": {
+    "t1": "Portfolio",
+    "t2": "Selected work",
+    "t3": "Writing for clients, and writing of my own.",
+    "t4": "My role varies by project. I wrote all the work shown here; on some projects, I also created the design. Others were designed by professional designers."
+  },
+  "contact": {
+    "t1": "Your move.",
+    "t2": "You've built the momentum.",
+    "t3": "Now let's put it into words.",
+    "t4": "First call's on me.",
+    "t5": "Book a conversation",
+    "t6": "or email",
+    "i1": "/assets/gina-bike-fullshadow.png",
+    "i1_alt": "Gina Calvert on a mountain bike, smiling, with her shadow stretching behind her"
+  },
+  "seo": {
+    "title": "Portfolio · Gina Calvert"
+  }
+}
